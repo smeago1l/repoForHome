@@ -1,0 +1,95 @@
+body {
+    width: 1920px;
+}
+
+header {
+    width: 1920px;
+    height: 120px;
+    display: flex;
+    align-content: space-between;
+    
+}
+.headerDetails{
+    flex: 1;
+    justify-content: center;
+    align-content: center;
+    padding-left: 320px;
+    padding-right: 320px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+
+.YourFashion {
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    
+}
+.secondSection {
+    display: flex;
+    justify-content: space-between;
+   
+    
+}
+.secondSectionItem {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    text-align: center;
+
+}
+.thirdSection {
+    display: flex;
+    justify-content: space-between;
+
+}
+h1{
+    flex: 1;
+}
+.thirdSectionImg {
+    flex: 2;
+}
+.fourthSection {
+    display: flex;
+    flex-direction: column;
+}
+.fourthSectionItem {
+    flex: 1;
+    align-content: space-around;
+}
+.fourthSectionTopRow,
+.fourthSectionbottomRow {
+    display: flex;
+    justify-content: center;
+}
+.fourthSectionItems {
+    width: 500px;
+    margin: 30px;
+}
+
+.ourCustomers {
+    text-align: center;
+}
+
+.customers{
+    display: flex;
+    align-content: space-around;
+    justify-content: center;
+}
+
+.customerName {
+    margin: 40px;
+    flex: 1;
+}
+
+footer{
+    margin-top: 50px;
+    display: flex;
+    align-content: space-between;
+    height: 120px;
+    text-align: center;
+    margin-bottom: 200px;
+}
+.footerDetails {
+    flex: 1;
+}
